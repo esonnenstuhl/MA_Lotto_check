@@ -8,7 +8,7 @@ import json
 import urllib.request
 import datetime, logging, sys
 
-outMsg = '\nLotto Results\n '   #output Message
+outMsg = '\n '   #output Message
 loopCount = 0                   
 match = 0
 ball = 0

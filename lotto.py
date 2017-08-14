@@ -104,6 +104,6 @@ while (loopCount <= (len(gameNames) -1)):
     loopCount = loopCount + 1
 
 #print results
-print ('Printing ', yesterdayDate, 'results:', outMsg)
+print (yesterdayDate, 'results:', outMsg)
 
 

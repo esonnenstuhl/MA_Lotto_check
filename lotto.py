@@ -26,6 +26,7 @@ games = {'Mega Millions': {'numbers':'0', 'ball':'0'},
 gameNames = ['Mega Millions', 'Powerball', 'Lucky for Life', 'Megabucks Doubler']
 
 #gamePrize stores winning ticket value. stored in format [game[!ball:[matches:prize], ball:[matches:prize]]]
+#jackpots are not stored here as this is a static structure
 gamePrize = {'Mega Millions':     {'0' : {'0':'0', '1':'0', '2':'0', '3':'5', '4':'500', '5':'1000000', '6': '0'},
                                    '1' : {'0':'1', '1':'2', '2':'5', '3':'50', '4':'5000', '5':'1000000', '6': '0'}},
              'Powerball':         {'0' : {'0':'0', '1':'0', '2':'0', '3':'7', '4':'100', '5':'1000000', '6': '0'},

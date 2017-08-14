@@ -39,7 +39,7 @@ gamePrize = {'Mega Millions':     {'0' : {'0':'0', '1':'0', '2':'0', '3':'5', '4
 
 #use yesterdays date, some games update at 11:45pm local time so script should run after midnight
 #exit if yesterday was sunday
-yesterday = datetime.datetime.now() - datetime.timedelta(days = 2)
+yesterday = datetime.datetime.now() - datetime.timedelta(days = 1)
 yesterdayDate= (yesterday.strftime("%A")) 
 if yesterdayDate == 'Sunday': 
     sys.exit()

@@ -1,6 +1,7 @@
 #emailMsg.py
 #12-19-16
 #function to send emails, retun 0 = email sent, 1 = fault
+#based on https://automatetheboringstuff.com/chapter16/
 """Send emails, requires the following
     (recAddr, message)
 """
